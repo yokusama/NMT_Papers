@@ -40,6 +40,29 @@ Some good(maybe) papers about NMT.
 
 ### Context Model:
 
+1. **Neural Machine Translation with Extended Context.**
+*Jorg Tiedemann and Yves Scherrer.* DiscoMT 2017.  [paper](http://www.aclweb.org/anthology/W17-4811)
+
+1. **Does Neural Machine Translation Benefit from Larger Context?.**
+*Sebastien Jean, Stanislas Lauly, Orhan Firat, Kyunghyun Cho.* EMNLP 2017.  [paper](https://arxiv.org/pdf/1704.05135.pdf)
+
+1. **Exploiting Cross-Sentence Context for Neural Machine Translation.**
+*Longyue Wang, Zhaopeng Tu, Andy Way, Qun Liu.* EMNLP 2017.  [paper](http://aclweb.org/anthology/D17-1301)
+
+1. **Evaluating Discourse Phenomena in Neural Machine Translation.**
+*Rachel Bawden, Rico Sennrich, Alexandra Birch, Barry Haddow.* NAACL 2018.  [paper](http://aclweb.org/anthology/N18-1118)
+
+1. **Context-Aware Neural Machine Translation Learns Anaphora Resolution.** *Elena Voita, Pavel Serdyukov, Rico Sennrich, Ivan Titov.* ACL 2018.  [paper](http://www.aclweb.org/anthology/P18-1117)
+
+1. **Exploiting Cross-Sentence Context for Neural Machine Translation.**
+*Longyue Wang, Zhaopeng Tu, Andy Way, Qun Liu.* EMNLP 2017.  [paper](http://aclweb.org/anthology/D17-1301)
+
+1. **Document Context Neural Machine Translation with Memory Networks.**
+*Sameen Maruf, Gholamreza Haffari.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1118)
+
+1. **Improving the Transformer Translation Model with Document-Level Context.**
+*Jiacheng Zhang, Huanbo Luan, Maosong Sun, FeiFei Zhai, Jingfang Xu, Min Zhang, Yang Liu.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1049)
+
 ### Multi Task NMT:
 
 ### Low Scource:
