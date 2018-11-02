@@ -1,8 +1,9 @@
-# NMT_Papers
+# NMT_Papers (Update Continuously)
 
 ## Recommended Papers for NMT (Neural Machine Translation)
 
-Some good(maybe) papers about NMT.
+Some good papers about NMT.
+(Maybe not everyone thinks these papers are good, but I hope you can  something you want. :-))
 
 ### Model:
 
