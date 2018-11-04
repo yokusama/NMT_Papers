@@ -2,9 +2,7 @@
 
 ## Recommended Papers for NMT (Neural Machine Translation)
 
-Some good papers about NMT.
-
-(Maybe not everyone thinks these papers are good, but I hope you can  something you want. :-))
+Some   papers about NMT.
 
 ### Model:
 
@@ -24,12 +22,21 @@ Some good papers about NMT.
 *Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin.*  2017.  [paper](https://arxiv.org/pdf/1705.03122.pdf)
 
 1. **Attention Is All You Need.**
-*Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin.* NIPS 2017.  [paper](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
+*Mia Xu Chen, Orhan Firat, Ankur Bapna, Melvin Johnson, Wolfgang Macherey, George Foster, Llion Jones, Niki Parmar, Mike Schuster, Zhifeng Chen, Yonghui Wu, Macduff Hughes.* ACL 2018.  [paper](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
+
+1. **The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation.**
+*Sameen Maruf, Gholamreza Haffari.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1008)
+
+1. **You May Not Need Attention.**
+*Ofir Press, Noah A. Smith.*  2018.  [paper](https://arxiv.org/pdf/1810.13409.pdf)
 
 ### Analysis:
 
 1. **Massive Exploration of Neural Machine Translation Architectures.**
 *Denny Britz, Anna Goldie, Minh-Thang Luong, Quoc Le.* ACL 2017.  [paper](https://www.aclweb.org/anthology/D17-1151)
+
+1. **What do Neural Machine Translation Models Learn about Morphology?.**
+*Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass.* ACL 2017.  [paper](https://arxiv.org/pdf/1704.03471.pdf)
 
 1. **How Much Attention Do You Need? A Granular Analysis of Neural Machine Translation Architectures.**
 *Tobias Domhan.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1167)
@@ -39,6 +46,9 @@ Some good papers about NMT.
 
 1. **Beyond Error Propagation in Neural Machine Translation: Characteristics of Language Also Matter.**
 *Lijun Wu, Xu Tan, Di He, Fei Tian, Tao Qin, Jianhuang Lai, Tie-Yan Liu.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1396)
+
+1. **The Lazy Encoder: A Fine-Grained Analysis of the Role of Morphology in Neural Machine Translation.**
+*Arianna Bisazza, Clara Tump.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1313)
 
 ### Context Model:
 
@@ -65,11 +75,17 @@ Some good papers about NMT.
 1. **Improving the Transformer Translation Model with Document-Level Context.**
 *Jiacheng Zhang, Huanbo Luan, Maosong Sun, FeiFei Zhai, Jingfang Xu, Min Zhang, Yang Liu.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1049)
 
+1. **Document-Level Neural Machine Translation with Hierarchical Attention Networks.**
+*Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas, James Henderson.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1325)
+
+
 ### Multi Task NMT:
 
-### Low Scource:
+### Low Source:
 
 ### Multilingual NMT
 
-### unsupervised NMT:
+### Unsupervised NMT:
+
+
 
