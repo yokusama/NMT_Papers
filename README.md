@@ -2,7 +2,7 @@
 
 ## Recommended Papers for NMT (Neural Machine Translation)
 
-Some   papers about NMT.
+Some papers about NMT.
 
 ### Model:
 
@@ -32,10 +32,16 @@ Some   papers about NMT.
 
 ### Analysis:
 
+1. **Does String-Based Neural MT Learn Source Syntax?.**
+*Xing Shi, Inkit Padhi, and Kevin Knight.* EMNLP 2016.  [paper](http://aclweb.org/anthology/D16-1159)
+
+1. **What do Neural Machine Translation Models Learn about Morphology?**
+*Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass.* ACL 2017.  [paper](https://arxiv.org/pdf/1704.03471.pdf)
+
 1. **Massive Exploration of Neural Machine Translation Architectures.**
 *Denny Britz, Anna Goldie, Minh-Thang Luong, Quoc Le.* ACL 2017.  [paper](https://www.aclweb.org/anthology/D17-1151)
 
-1. **What do Neural Machine Translation Models Learn about Morphology?.**
+1. **What do Neural Machine Translation Models Learn about Morphology?**
 *Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass.* ACL 2017.  [paper](https://arxiv.org/pdf/1704.03471.pdf)
 
 1. **How Much Attention Do You Need? A Granular Analysis of Neural Machine Translation Architectures.**
@@ -49,6 +55,15 @@ Some   papers about NMT.
 
 1. **The Lazy Encoder: A Fine-Grained Analysis of the Role of Morphology in Neural Machine Translation.**
 *Arianna Bisazza, Clara Tump.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1313)
+
+1. **An Analysis of Encoder Representations in Transformer-Based Machine Translation.**
+*Alessandro Raganato and Jorg Tiedemann.* EMNLP Worshopp BlackboxNLP 2018.  [paper](http://aclweb.org/anthology/W18-5431)
+
+1. **When and Why are Pre-trained Word Embeddings Useful for Neural Machine Translation?**
+*Ye Qi, Devendra Singh Sachan, Matthieu Felix, Sarguna Janani Padmanabhan, Graham Neubig.* NAACL 2018.  [paper](http://www.aclweb.org/anthology/N18-2084)
+
+1. **On the Impact of Various Types of Noise on Neural Machine Translation.**
+*Huda Khayrallah, Philipp Koehn.* WNMT 2018.  [paper](http://www.aclweb.org/anthology/W18-2709)
 
 ### Context Model:
 
@@ -79,13 +94,34 @@ Some   papers about NMT.
 *Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas, James Henderson.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1325)
 
 
+### Domain adaptation
+
+1. **Multi-Domain Neural Machine Translation with Word-Level Domain Context Discrimination.**
+*Jiali Zeng, Jinsong Su, Huating Wen, Yang Liu, Jun Xie, Yongjing Yin, Jianqiang Zhao.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1041)
+
+1. **Extreme Adaptation for Personalized Neural Machine Translation.**
+*Paul Michel, Graham Neubig.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-2050)
+
+
 ### Multi Task NMT:
+1. **Multi-Source Neural Translation.**
+*Barret Zoph and Kevin Knight.* NAACL 2016.  [paper](http://www.aclweb.org/anthology/N16-1004)
+
+1. **Multi-task Sequence to Sequence Learning.**
+*Minh-Thang Luong, Quoc V. Le, Ilya Sutskever, Oriol Vinyals, Lukasz Kaiser.* ICLR 2016.  [paper](https://arxiv.org/pdf/1511.06114.pdf)
+
+1. **Attention Strategies for Multi-Source Sequence-to-Sequence Learning.**
+*Jindřich Libovický, Jindřich Helcl.* ACL 2017.  [paper](http://aclweb.org/anthology/P17-2031)
+
+1. **Input Combination Strategies for Multi-Source Transformer Decoder.**
+*Jindřich Libovický, Jindřich Helcl and David Marecek.* WMT 2018.  [paper](http://www.statmt.org/wmt18/pdf/WMT026.pdf)
+
+
+### Attention
 
 ### Low Source:
 
 ### Multilingual NMT
 
 ### Unsupervised NMT:
-
-
 
