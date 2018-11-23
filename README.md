@@ -93,6 +93,9 @@ Some papers about NMT.
 1. **Document-Level Neural Machine Translation with Hierarchical Attention Networks.**
 *Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas, James Henderson.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1325)
 
+1. **Improving the Transformer Translation Model with Document-Level Context.**
+*Jiacheng Zhang, Huanbo Luan, Maosong Sun, FeiFei Zhai, Jingfang Xu, Min Zhang, Yang Liu.* EMNLP 2018. [paper](https://arxiv.org/pdf/1810.03581.pdf)
+
 
 ### Domain adaptation
 
@@ -102,6 +105,20 @@ Some papers about NMT.
 1. **Extreme Adaptation for Personalized Neural Machine Translation.**
 *Paul Michel, Graham Neubig.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-2050)
 
+1. **A Survey of Domain Adaptation for Neural Machine Translation.**  
+*Chenhui Chu, Rui Wang.* COLING 2018.  [paper](https://arxiv.org/pdf/1806.00258.pdf)
+
+1. **Regularization techniques for fine-tuning in neural machine translation.**
+*Antonio Valerio Miceli Barone, Barry Haddow, Ulrich Germann,  Rico Sennrich.  [paper](https://www.aclweb.org/anthology/D17-1156)
+
+1. **Sentence Weighting for Neural Machine Translation Domain Adaptation.**
+*Shiqi Zhang, Deyi Xiong.*COLING 2018. [paper](http://aclweb.org/anthology/C18-1269)
+
+1. **Cost Weighting for Neural Machine Translation Domain Adaptation.**
+*Boxing Chen, Colin Cherry, George Foster, Samuel Larkin.*WNMT2017 [paper](https://aclanthology.coli.uni-saarland.de/papers/W17-3205/w17-3205)
+
+1. **Sentence selection and weighting for neural machine translation domain adaptation.**
+*Rui Wang, Masao Utiyama, Andrew Finch, Lemao Liu, Kehai Chen, and Eiichiro Sumita.*I*EEE/ACM Transactions on Audio,Speech, and Language Processing.[paper](https://ieeexplore.ieee.org/document/8360031/)
 
 ### Multi Task NMT:
 1. **Multi-Source Neural Translation.**
