@@ -67,6 +67,9 @@ I have read all the papers. Hope you can fine something you need(like)!
 1. **On the Evaluation of Semantic Phenomena in Neural Machine Translation Using Natural Language Inference**
 *Adam Poliak, Yonatan Belinkov, James Glass, Benjamin Van Durme.* NAACL 2018.  [paper](http://www.aclweb.org/anthology/N18-2082)
 
+1. **A Comparison of Transformer and Recurrent Neural Networks on Multilingual Neural Machine Translation.**
+*Surafel M. Lakew, Mauro Cettolo, Marcello Federico.* COLING 2018.  [paper](http://aclweb.org/anthology/C18-1054)
+
 1. **On the Impact of Various Types of Noise on Neural Machine Translation.**
 *Huda Khayrallah, Philipp Koehn.* WNMT 2018.  [paper](http://www.aclweb.org/anthology/W18-2709)
 
@@ -145,6 +148,12 @@ I have read all the papers. Hope you can fine something you need(like)!
 1. **Beyond Weight Tying: Learning Joint Input-Output Embeddings for Neural Machine Translation.**
 *Nikolaos Pappas, Lesly Miculicich Werlen, James Henderson.* WMT 2018.  [paper](http://aclweb.org/anthology/W18-6308)
 
+1. **Self-Attention with Relative Position Representations.**
+*Peter Shaw, Jakob Uszkoreit, Ashish Vaswani.* ACL 2018.  [paper](http://aclweb.org/anthology/N18-2074)
+
+1. **Accelerating Neural Transformer via an Average Attention Network.**
+*Biao Zhang, Deyi Xiong, Jinsong Su.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1166)
+
 #### Attention :
 
 ##### RNN seq2seq:
@@ -154,6 +163,12 @@ I have read all the papers. Hope you can fine something you need(like)!
 
 1. **Surprisingly Easy Hard-Attention for Sequence to Sequence Learning.**
 *Shiv Shankar, Siddhant Garg, Sunita Sarawagi.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1065)
+
+1. **Sparse and Constrained Attention for Neural Machine Translation.**
+*Chaitanya Malaviya, Pedro Ferreira, André F. T. Martins.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-2059)
+
+1. **Attention Focusing for Neural Machine Translation by Bridging Source and Target Embeddings.**
+*Shaohui Kuang, Junhui Li, António Branco, Weihua Luo, Deyi Xiong.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1164)
 
 ##### Transformer:
 
