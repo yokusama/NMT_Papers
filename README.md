@@ -40,6 +40,9 @@ I have read all the papers. Hope you can fine something you need(like)!
 1. **What do Neural Machine Translation Models Learn about Morphology?**
 *Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass.* ACL 2017.  [paper](https://arxiv.org/pdf/1704.03471.pdf)
 
+1. **Evaluating Layers of Representation in Neural Machine Translation on Part-of-Speech and Semantic Tagging Tasks.**
+*Yonatan Belinkov, Lluís Màrquez, Hassan Sajjad, Nadir Durrani, Fahim Dalvi, James Glass.* ICJNLP 2017.  [paper](http://aclweb.org/anthology/I17-1001)
+
 1. **Massive Exploration of Neural Machine Translation Architectures.**
 *Denny Britz, Anna Goldie, Minh-Thang Luong, Quoc Le.* ACL 2017.  [paper](https://www.aclweb.org/anthology/D17-1151)
 
@@ -70,10 +73,16 @@ I have read all the papers. Hope you can fine something you need(like)!
 1. **On the Impact of Various Types of Noise on Neural Machine Translation.**
 *Huda Khayrallah, Philipp Koehn.* WNMT 2018.  [paper](http://www.aclweb.org/anthology/W18-2709)
 
+1. **Context and Copying in Neural Machine Translation.**
+*Rebecca Knowles, Philipp Koehn.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1339)
+
 ### Context Model:
 
 1. **Neural Machine Translation with Extended Context.**
 *Jorg Tiedemann and Yves Scherrer.* DiscoMT 2017.  [paper](http://www.aclweb.org/anthology/W17-4811)
+
+1. **Context Gates for Neural Machine Translation.**
+*Zhaopeng Tu, Yang Liu, Zhengdong Lu, Xiaohua Liu, Hang Li.* TACL 2017.  [paper](http://www.aclweb.org/anthology/Q17-1007)
 
 1. **Does Neural Machine Translation Benefit from Larger Context?.**
 *Sebastien Jean, Stanislas Lauly, Orhan Firat, Kyunghyun Cho.* EMNLP 2017.  [paper](https://arxiv.org/pdf/1704.05135.pdf)
@@ -97,6 +106,9 @@ I have read all the papers. Hope you can fine something you need(like)!
 
 1. **Document-Level Neural Machine Translation with Hierarchical Attention Networks.**
 *Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas, James Henderson.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1325)
+
+1. **Context-Dependent Word Representation for Neural Machine Translation.**
+*Heeyoul Choi, Kyunghyun Cho, Yoshua Bengio.*   [paper](https://arxiv.org/pdf/1607.00578.pdf)
 
 1. **Handling Homographs in Neural Machine Translation.**
 *Frederick Liu, Han Lu, Graham Neubig.* NAACL 2018.  [paper](http://aclweb.org/anthology/N18-1121)
@@ -140,8 +152,12 @@ I have read all the papers. Hope you can fine something you need(like)!
 1. **Self-Attention with Relative Position Representations.**
 *Peter Shaw, Jakob Uszkoreit, Ashish Vaswani.* ACL 2018.  [paper](http://aclweb.org/anthology/N18-2074)
 
-1. **Accelerating Neural Transformer via an Average Attention Network.**
-*Biao Zhang, Deyi Xiong, Jinsong Su.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1166)
+1. **Universal Transformers.**
+*Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, Łukasz Kaiser.*  [paper](https://arxiv.org/pdf/1807.03819.pdf)
+
+1. **Layer-Wise Coordination between Encoder and Decoder for Neural Machine Translation.**
+*He Tianyu, Tan Xu, Xia Yingce, He Di, Qin Tao, Chen Zhibo, Liu Tie-Yan.* NIPS 2018.  [paper](http://papers.nips.cc/paper/8019-layer-wise-coordination-between-encoder-and-decoder-for-neural-machine-translation.pdf)
+
 
 #### Weight Tying
 
@@ -169,6 +185,9 @@ I have read all the papers. Hope you can fine something you need(like)!
 
 ##### Transformer:
 
+1. **Accelerating Neural Transformer via an Average Attention Network.**
+*Biao Zhang, Deyi Xiong, Jinsong Su.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1166)
+
 1. **Modeling Localness for Self-Attention Networks.**
 *Baosong Yang, Zhaopeng Tu, Derek F. Wong, Fandong Meng, Lidia S. Chao, Tong Zhang.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1475)
 
@@ -188,9 +207,6 @@ I have read all the papers. Hope you can fine something you need(like)!
 1. **Copied Monolingual Data Improves Low-Resource Neural Machine Translation.**
 *Anna Currey, Antonio Valerio Miceli Barone, and Kenneth Heafield.* WMT 2017.  [paper](http://www.aclweb.org/anthology/W17-4715)
 
-
-
-
 ### Multilingual NMT
 
 1. **Contextual Parameter Generation for Universal Neural Machine Translation.**
@@ -205,7 +221,6 @@ I have read all the papers. Hope you can fine something you need(like)!
 
 1. **Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning.**
 *Tobias Domhan and Felix Hieber.* EMNLP 2017.  [paper](http://aclweb.org/anthology/D17-1158)
-
 
 
 #### Back-Translation:
