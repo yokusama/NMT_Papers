@@ -43,9 +43,6 @@ I have read all the papers. Hope you can fine something you need(like)!
 1. **Massive Exploration of Neural Machine Translation Architectures.**
 *Denny Britz, Anna Goldie, Minh-Thang Luong, Quoc Le.* ACL 2017.  [paper](https://www.aclweb.org/anthology/D17-1151)
 
-1. **What do Neural Machine Translation Models Learn about Morphology?**
-*Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass.* ACL 2017.  [paper](https://arxiv.org/pdf/1704.03471.pdf)
-
 1. **How Much Attention Do You Need? A Granular Analysis of Neural Machine Translation Architectures.**
 *Tobias Domhan.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1167)
 
@@ -140,6 +137,12 @@ I have read all the papers. Hope you can fine something you need(like)!
 1. **Semi-Autoregressive Neural Machine Translation.**
 *Chunqi Wang, Ji Zhang, Haiqing Chen.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1044)
 
+1. **Self-Attention with Relative Position Representations.**
+*Peter Shaw, Jakob Uszkoreit, Ashish Vaswani.* ACL 2018.  [paper](http://aclweb.org/anthology/N18-2074)
+
+1. **Accelerating Neural Transformer via an Average Attention Network.**
+*Biao Zhang, Deyi Xiong, Jinsong Su.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1166)
+
 #### Weight Tying
 
 1. **Using the Output Embedding to Improve Language Models.**
@@ -147,12 +150,6 @@ I have read all the papers. Hope you can fine something you need(like)!
 
 1. **Beyond Weight Tying: Learning Joint Input-Output Embeddings for Neural Machine Translation.**
 *Nikolaos Pappas, Lesly Miculicich Werlen, James Henderson.* WMT 2018.  [paper](http://aclweb.org/anthology/W18-6308)
-
-1. **Self-Attention with Relative Position Representations.**
-*Peter Shaw, Jakob Uszkoreit, Ashish Vaswani.* ACL 2018.  [paper](http://aclweb.org/anthology/N18-2074)
-
-1. **Accelerating Neural Transformer via an Average Attention Network.**
-*Biao Zhang, Deyi Xiong, Jinsong Su.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1166)
 
 #### Attention :
 
