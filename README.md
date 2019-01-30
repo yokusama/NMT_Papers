@@ -76,7 +76,7 @@ I have read all the papers. Hope you can fine something you need(like)!
 1. **Context and Copying in Neural Machine Translation.**
 *Rebecca Knowles, Philipp Koehn.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1339)
 
-### Context Model:
+### Context and Document-level NMT:
 
 1. **Neural Machine Translation with Extended Context.**
 *Jorg Tiedemann and Yves Scherrer.* DiscoMT 2017.  [paper](http://www.aclweb.org/anthology/W17-4811)
@@ -113,6 +113,21 @@ I have read all the papers. Hope you can fine something you need(like)!
 1. **Handling Homographs in Neural Machine Translation.**
 *Frederick Liu, Han Lu, Graham Neubig.* NAACL 2018.  [paper](http://aclweb.org/anthology/N18-1121)
 
+###Memory NMT
+1. **Memory-enhanced Decoder for Neural Machine Translation.**
+*Mingxuan Wang, Zhengdong Lu, Hang Li, Qun Liu.* EMNLP 2016.  [paper](https://aclweb.org/anthology/D16-1027)
+
+1. **Memory-augmented Neural Machine Translation.**
+*Yang Feng, Shiyue Zhang, Andi Zhang, Dong Wang, Andrew Abel.* EMNLP 2017.  [paper](https://www.aclweb.org/anthology/D17-1146)
+
+1. **Neural Machine Translation with Recurrent Attention Modeling.**
+*Zichao Yang, Zhiting Hu, Yuntian Deng, Chris Dyer, Alex Smola.* EACL 2017.  [paper](http://www.aclweb.org/anthology/E17-2061)
+
+1. **Learning to Remember Translation History with a Continuous Cache.**
+*haopeng Tu, Yang Liu, Shuming Shi, Tong Zhang.* TACL 2018.  [paper](http://aclweb.org/anthology/Q18-1029)
+
+1. **Neural Machine Translation with Key-Value Memory-Augmented Attention.**
+*Fandong Meng, Zhaopeng Tu, Yong Cheng, Haiyang Wu, Junjie Zhai, Yuekui Yang, Di Wang.* TACL 2018.  [paper](https://www.ijcai.org/proceedings/2018/0357.pdf)
 
 ### Domain adaptation
 
