@@ -113,7 +113,8 @@ I have read all the papers. Hope you can fine something you need(like)!
 1. **Handling Homographs in Neural Machine Translation.**
 *Frederick Liu, Han Lu, Graham Neubig.* NAACL 2018.  [paper](http://aclweb.org/anthology/N18-1121)
 
-###Memory NMT
+### Memory NMT
+
 1. **Memory-enhanced Decoder for Neural Machine Translation.**
 *Mingxuan Wang, Zhengdong Lu, Hang Li, Qun Liu.* EMNLP 2016.  [paper](https://aclweb.org/anthology/D16-1027)
 
