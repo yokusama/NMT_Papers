@@ -128,7 +128,7 @@ I have read all the papers. Hope you can fine something you need(like)!
 *haopeng Tu, Yang Liu, Shuming Shi, Tong Zhang.* TACL 2018.  [paper](http://aclweb.org/anthology/Q18-1029)
 
 1. **Neural Machine Translation with Key-Value Memory-Augmented Attention.**
-*Fandong Meng, Zhaopeng Tu, Yong Cheng, Haiyang Wu, Junjie Zhai, Yuekui Yang, Di Wang.* TACL 2018.  [paper](https://www.ijcai.org/proceedings/2018/0357.pdf)
+*Fandong Meng, Zhaopeng Tu, Yong Cheng, Haiyang Wu, Junjie Zhai, Yuekui Yang, Di Wang.* IJCAI 2018.  [paper](https://www.ijcai.org/proceedings/2018/0357.pdf)
 
 ### Domain adaptation
 
