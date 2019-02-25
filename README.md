@@ -2,9 +2,11 @@
 
 ## Recommended Papers for NMT (Neural Machine Translation)
 
-Some papers about NMT.
+Some papers I have read about NMT.
 
-I have read all the papers. Hope you can fine something you need(like)!
+Machine translation is a very interesting research direction! Hope you can fine something you need(like)!
+
+If you are interested in machine translation and have any questions, **please feel free to contact me!**
 
 ### Must Reads:
 
@@ -42,6 +44,9 @@ I have read all the papers. Hope you can fine something you need(like)!
 * **What do Neural Machine Translation Models Learn about Morphology?**
 *Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass.* ACL 2017.  [paper](https://arxiv.org/pdf/1704.0347*pdf)
 
+* **Visualizing and Understanding Neural Machine Translation.**
+*Yanzhuo Ding, Yang Liu, Huanbo Luan, Maosong Sun.* ACL 2017.  [paper](http://aclweb.org/anthology/P17-1106)
+
 * **Evaluating Layers of Representation in Neural Machine Translation on Part-of-Speech and Semantic Tagging Tasks.**
 *Yonatan Belinkov, Lluís Màrquez, Hassan Sajjad, Nadir Durrani, Fahim Dalvi, James Glass.* ICJNLP 2017.  [paper](http://aclweb.org/anthology/I17-1001)
 
@@ -78,9 +83,18 @@ I have read all the papers. Hope you can fine something you need(like)!
 * **Context and Copying in Neural Machine Translation.**
 *Rebecca Knowles, Philipp Koehn.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1339)
 
+* **Getting Gender Right in Neural Machine Translation.**
+*Eva Vanmassenhove, Christian Hardmeier, Andy Way.* EMNLP 2018.  [paper](http://www.aclweb.org/anthology/D18-1334)
+
 ### Attention :
 
 #### RNN seq2seq:
+
+* **Interactive Attention for Neural Machine Translation.**
+*Fandong Meng, Zhengdong Lu, Hang Li, Qun Liu.* COLING 2016.  [paper](http://aclweb.org/anthology/C16-1205)
+
+* **Neural Machine Translation with Recurrent Attention Modeling.**
+*Zichao Yang, Zhiting Hu, Yuntian Deng, Chris Dyer, Alex Smola.* EACL 2017.  [paper](http://www.aclweb.org/anthology/E17-2061)
 
 * **Learning When to Concentrate or Divert Attention: Self-Adaptive Attention Temperature for Neural Machine Translation.**
 *Junyang Lin, Xu Sun, Xuancheng Ren, Muyu Li, Qi Su.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1331)
@@ -93,6 +107,21 @@ I have read all the papers. Hope you can fine something you need(like)!
 
 * **Attention Focusing for Neural Machine Translation by Bridging Source and Target Embeddings.**
 *Shaohui Kuang, Junhui Li, António Branco, Weihua Luo, Deyi Xiong.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1164)
+
+* **Word Attention for Sequence to Sequence Text Understanding.**
+*Lijun Wu, Fei Tian, Li Zhao, Jianhuang Lai1 and Tie-Yan Liu.* AAAI 2018.  [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/11/word_attention_camera_ready.pdf)
+
+* **Attention-via-Attention Neural Machine Translation.**
+*Shenjian Zhao, Zhihua Zhang.* AAAI 2018.  [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16534/15733)
+
+* **Combining Character and Word Information in Neural Machine Translation Using a Multi-Level Attention.**
+*Huadong Chen, Shujian Huang†, David Chiang, Xinyu Dai, Jiajun Chen.* NAACL 2018.  [paper](http://www.aclweb.org/anthology/N18-1116)
+
+* **Target Foresight based Attention for Neural Machine Translation.**
+*Xintong Li, Lemao Liu, Zhaopeng Tu, Shuming Shi, Max Meng.* NAACL 2018.  [paper](http://www.aclweb.org/anthology/N18-1125)
+
+* **Neural Machine Translation with Decoding-History Enhanced Attention.**
+*Mingxuan Wang, Jun Xie, Zhixing Tan, Jinsong Su, Deyi Xiong, Chao bian.* COLING 2018.  [paper](http://aclweb.org/anthology/C18-1124)
 
 #### Transformer:
 
@@ -107,6 +136,140 @@ I have read all the papers. Hope you can fine something you need(like)!
 
 * **Multi-Head Attention with Disagreement Regularization.**
 *Jian Li, Zhaopeng Tu, Baosong Yang, Michael R. Lyu, Tong Zhang.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1317)
+
+* **Pay Less Attention with Lightweight and Dynamic Convolutions.**
+*Felix Wu, Angela Fan, Alexei Baevski, Yann N. Dauphin, Michael Auli.* ICLR 2019.  [paper](https://openreview.net/pdf?id=SkVhlh09tX)
+
+### Model Improvement :
+
+#### RNN seq2seq:
+
+* **Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation.**
+*Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V. Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner, Apurva Shah, Melvin Johnson, Xiaobing Liu, Łukasz Kaiser, Stephan Gouws, Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian, Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick, Oriol Vinyals, Greg Corrado, Macduff Hughes, Jeffrey Dean.* 2016.  [paper](https://arxiv.org/pdf/1609.08144.pdf)
+
+* **You May Not Need Attention.**
+*Ofir Press, Noah A. Smith.*  2018.  [paper](https://arxiv.org/pdf/1810.13409.pdf)
+
+* **A Context-Aware Recurrent Encoder for Neural Machine Translation.**
+*Biao Zhang, Deyi Xiong, Jinsong Su, Hong Duan.*   IEEE/ACM Transactions on Audio, Speech, and Language Processing 2017.  [paper](https://ieeexplore.ieee.org/document/8031316)
+
+* **Improving Lexical Choice in Neural Machine Translation.**
+*Toan Q. Nguyen, David Chiang.*  ACL 2018.  [paper](http://aclweb.org/anthology/N18-1031)
+
+* **Compositional Representation of Morphologically-Rich Input for Neural Machine Translation.**
+*Duygu Ataman, Marcello Federico.*  ACL 2018.  [paper](http://www.aclweb.org/anthology/P18-2049)
+
+* **Dense Information Flow for Neural Machine Translation.**
+*Yanyao Shen, Xu Tan, Di He, Tao Qin, Tie-Yan Liu.*  COLING 2018.  [paper](http://aclweb.org/anthology/C18-1110)
+
+* **Refining Source Representations with Relation Networks for Neural Machine Translation.**
+*Wen Zhang, Jiawei Hu, Yang Feng, Qun Liu.*  NAACL 2018.  [paper](http://www.aclweb.org/anthology/N18-1117)
+
+* **Adaptive Weighting for Neural Machine Translation.**
+*Yachao Li1, Junhui Li, Min Zhang.*  COLING 2018.  [paper](http://aclweb.org/anthology/C18-1257)
+
+* **Multi-channel Encoder for Neural Machine Translation.**
+*Hao Xiong, Zhongjun He, Xiaoguang Hu, Hua Wu.*  AAAI 2018.  [paper](https://arxiv.org/pdf/1712.02109.pdf)
+
+* **Towards Two-Dimensional Sequence to Sequence Model in Neural Machine Translation.**
+*Parnia Bahar, Christopher Brix, Hermann Ney.*  EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1335)
+
+* **Modeling Past and Future for Neural Machine Translation.**
+*Zaixiang Zheng, Hao Zhou, Shujian Huang, Lili Mou, Xinyu Dai, Jiajun Chen, Zhaopeng Tu.*  TACL 2018.  [paper](http://aclweb.org/anthology/Q18-1011)
+
+* **Self-Attentive Residual Decoder for Neural Machine Translation.**
+*Lesly Miculicich Werlen, Nikolaos Pappas, Dhananjay Ram, Andrei Popescu-Belis.*  NAACL 2018.  [paper](http://aclweb.org/anthology/N18-1124)
+
+* **Modeling Coverage for Neural Machine Translation.**
+*Zhaopeng Tu, Zhengdong Lu, Yang Liu, Xiaohua Liu, Hang Li.*  ACL 2016.  [paper](http://www.aclweb.org/anthology/P16-1008)
+
+* **A Simple and Effective Approach to Coverage-Aware Neural Machine Translation.**
+*Yanyang Li, Tong Xiao, Yinqiao Li, Qiang Wang, Changming Xu, Jingbo Zhu.*  ACL 2018.  [paper](http://aclweb.org/anthology/P18-2047)
+
+* **Simplifying Neural Machine Translation with Addition-Subtraction Twin-Gated Recurrent Networks.**
+*Biao Zhang, Deyi Xiong, Jinsong Su, Qian Lin, Huiji Zhang.*  ACL 2018.  [paper](http://aclweb.org/anthology/D18-1459)
+
+* **Deep Neural Machine Translation with Linear Associative Unit.**
+*Mingxuan Wang, Zhengdong Lu, Jie Zhou, Qun Liu.*  ACL 2017.  [paper](http://www.aclweb.org/anthology/P17-1013)
+
+* **DTMT: A Novel Deep Transition Architecture for Neural Machine Translation.**
+*Fandong Meng, Jinchao Zhang.*  AAAI 2019.  [paper](https://arxiv.org/pdf/1812.07807.pdf)
+
+#### Transformer:
+
+* **Non-Autoregressive Neural Machine Translation.**
+*Jiatao Gu, James Bradbury, Caiming Xiong, Victor O.K. Li, Richard Socher.* ICLR 2018.  [paper](https://openreview.net/pdf?id=B1l8BtlCb)
+
+* **Semi-Autoregressive Neural Machine Translation.**
+*Chunqi Wang, Ji Zhang, Haiqing Chen.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1044)
+
+* **Self-Attention with Relative Position Representations.**
+*Peter Shaw, Jakob Uszkoreit, Ashish Vaswani.* ACL 2018.  [paper](http://aclweb.org/anthology/N18-2074)
+
+* **Universal Transformers.**
+*Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, Łukasz Kaiser.*  [paper](https://arxiv.org/pdf/1807.03819.pdf)
+
+* **Layer-Wise Coordination between Encoder and Decoder for Neural Machine Translation.**
+*He Tianyu, Tan Xu, Xia Yingce, He Di, Qin Tao, Chen Zhibo, Liu Tie-Yan.* NIPS 2018.  [paper](http://papers.nips.cc/paper/8019-layer-wise-coordination-between-encoder-and-decoder-for-neural-machine-translation.pdf)
+
+* **Tied Transformers: Neural Machine Translation with Shared Encoder and Decoder.**
+*Yingce Xia, Tianyu He, Xu Tan, Fei Tian, Di He and Tao Qin.*  AAAI 2019.  [paper](https://taoqin.github.io/papers/tiedT.AAAI2019.pdf)
+
+* **The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation.**
+*Sameen Maruf, Gholamreza Haffari.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1008)
+
+* **Multi-layer Representation Fusion for Neural Machine Translation.**
+*Qiang Wang, Fuxue Li†, Tong Xiao, Yanyang Li, Yinqiao Li, Jingbo Zhu.* COLING 2018.  [paper](http://aclweb.org/anthology/C18-1255)
+
+* **Exploiting Deep Representations for Neural Machine Translation.**
+*Zi-Yi Dou, Zhaopeng Tu, Xing Wang, Shuming Shi, Tong Zhang.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1457)
+
+* **Dynamic Layer Aggregation for Neural Machine Translation with Routing-by-Agreement.**
+*Zi-Yi Dou, Zhaopeng Tu, Xing Wang, Shuming Shi, Tong Zhang.* AAAI 2019.  [paper](Zi-Yi Dou, Zhaopeng Tu, Xing Wang, Longyue Wang, Shuming Shi, Tong Zhang)
+
+#### Memory Augmented NMT:
+
+* **Memory-enhanced Decoder for Neural Machine Translation.**
+*Mingxuan Wang, Zhengdong Lu, Hang Li, Qun Liu.* EMNLP 2016.  [paper](https://aclweb.org/anthology/D16-1027)
+
+* **Memory-augmented Neural Machine Translation.**
+*Yang Feng, Shiyue Zhang, Andi Zhang, Dong Wang, Andrew Abel.* EMNLP 2017.  [paper](https://www.aclweb.org/anthology/D17-1146)
+
+* **Neural Machine Translation with Recurrent Attention Modeling.**
+*Zichao Yang, Zhiting Hu, Yuntian Deng, Chris Dyer, Alex Smola.* EACL 2017.  [paper](http://www.aclweb.org/anthology/E17-2061)
+
+* **Learning to Remember Translation History with a Continuous Cache.**
+*haopeng Tu, Yang Liu, Shuming Shi, Tong Zhang.* TACL 2018.  [paper](http://aclweb.org/anthology/Q18-1029)
+
+* **Neural Machine Translation with Key-Value Memory-Augmented Attention.**
+*Fandong Meng, Zhaopeng Tu, Yong Cheng, Haiyang Wu, Junjie Zhai, Yuekui Yang, Di Wang.* IJCAI 2018.  [paper](https://www.ijcai.org/proceedings/2018/0357.pdf)
+
+* **Encoding Gated Translation Memory into Neural Machine Translation.**
+*Qian Cao and Deyi Xiong.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1340)
+
+#### Dropped Pronoun Problem:
+
+* **A Novel Approach to Dropped Pronoun Translation.**
+*Longyue Wang, Zhaopeng Tu, Xiaojun Zhang, Hang Li, Andy Way, Qun Liu* NAACL 2016.  [paper](http://www.aclweb.org/anthology/N16-1113)
+
+* **The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation.**
+*Longyue Wang, Zhaopeng Tu, Shuming Shi, Tong Zhang, Yvette Graham, Qun Liu.* AAAI 2018.  [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16187/16026)
+
+* **Learning to Jointly Translate and Predict Dropped Pronouns with a Shared Reconstruction Mechanism.**
+*Longyue Wang, Zhaopeng Tu, Andy Way, Qun Liu.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1333)
+
+#### Weight Tying:
+
+* **Using the Output Embedding to Improve Language Models.**
+*Ofir Press, Lior Wolf.* EACL 2017.  [paper](http://aclweb.org/anthology/E17-2025)
+
+* **Beyond Weight Tying: Learning Joint Input-Output Embeddings for Neural Machine Translation.**
+*Nikolaos Pappas, Lesly Miculicich Werlen, James Henderson.* WMT 2018.  [paper](http://aclweb.org/anthology/W18-6308)
+
+#### Convolutional NMT:
+
+* **Convolutional Sequence to Sequence Learning.**
+*Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin.*  2017.  [paper](https://arxiv.org/pdf/1705.03122.pdf)
 
 ### Context and Document-level NMT:
 
@@ -139,30 +302,49 @@ I have read all the papers. Hope you can fine something you need(like)!
 * **Document-Level Neural Machine Translation with Hierarchical Attention Networks.**
 *Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas, James Henderson.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1325)
 
+* **Modeling Coherence for Discourse Neural Machine Translation.**
+*Hao Xiong, Zhongjun He, Hua Wu, Haifeng Wang.* AAAI 2019.  [paper](https://arxiv.org/pdf/1811.05683.pdf)
+
+* **Modeling Coherence for Neural Machine Translation with Dynamic and Topic Caches.**
+*Shaohui Kuang, Deyi Xiong, Weihua Luo, Guodong Zhou.* COLING 2018.  [paper](http://aclweb.org/anthology/C18-1050)
+
+* **Fusing Recency into Neural Machine Translation with an Inter-Sentence Gate Model.**
+*Shaohui Kuang, Deyi Xiong.* COLING 2018.  [paper](http://aclweb.org/anthology/C18-1051)
+
+* **A Large-Scale Test Set for the Evaluation of Context-Aware Pronoun Translation in Neural Machine Translation.**
+*Mathias Müller, Annette Rios, Elena Voita, Rico Sennrichu.* WMT 2018.  [paper](http://aclweb.org/anthology/W18-6307)
+
+* **Coreference and Coherence in Neural Machine Translation: A Study Using Oracle Experiments.**
+*Dario Stojanovski, Alexander Fraser.* WMT 2018.  [paper](http://aclweb.org/anthology/W18-6306)
+
+* **Contextual Neural Model for Translating Bilingual Multi-Speaker Conversations.**
+*Sameen Maruf, André F. T. Martins, Gholamreza Haffari.* WMT 2018.  [paper](http://aclweb.org/anthology/W18-6311)
+
 * **Context-Dependent Word Representation for Neural Machine Translation.**
 *Heeyoul Choi, Kyunghyun Cho, Yoshua Bengio.*   [paper](https://arxiv.org/pdf/1607.00578.pdf)
 
 * **Handling Homographs in Neural Machine Translation.**
 *Frederick Liu, Han Lu, Graham Neubig.* NAACL 2018.  [paper](http://aclweb.org/anthology/N18-1121)
 
-### Memory Augmented NMT:
+### Objective Function:
 
-* **Memory-enhanced Decoder for Neural Machine Translation.**
-*Mingxuan Wang, Zhengdong Lu, Hang Li, Qun Liu.* EMNLP 2016.  [paper](https://aclweb.org/anthology/D16-1027)
+* **Bag-of-Words as Target for Neural Machine Translation.**
+*Shuming Ma, Xu Sun, Yizhong Wang, Junyang Lin.*  ACL 2018.  [paper](http://www.aclweb.org/anthology/P18-2053)
 
-* **Memory-augmented Neural Machine Translation.**
-*Yang Feng, Shiyue Zhang, Andi Zhang, Dong Wang, Andrew Abel.* EMNLP 2017.  [paper](https://www.aclweb.org/anthology/D17-1146)
 
-* **Neural Machine Translation with Recurrent Attention Modeling.**
-*Zichao Yang, Zhiting Hu, Yuntian Deng, Chris Dyer, Alex Smola.* EACL 2017.  [paper](http://www.aclweb.org/anthology/E17-2061)
+### Low Source:
 
-* **Learning to Remember Translation History with a Continuous Cache.**
-*haopeng Tu, Yang Liu, Shuming Shi, Tong Zhang.* TACL 2018.  [paper](http://aclweb.org/anthology/Q18-1029)
+* **Rapid Adaptation of Neural Machine Translation to New Languages.**
+*Graham Neubig, Junjie Hu.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1103)
 
-* **Neural Machine Translation with Key-Value Memory-Augmented Attention.**
-*Fandong Meng, Zhaopeng Tu, Yong Cheng, Haiyang Wu, Junjie Zhai, Yuekui Yang, Di Wang.* IJCAI 2018.  [paper](https://www.ijcai.org/proceedings/2018/0357.pdf)
+* **Copied Monolingual Data Improves Low-Resource Neural Machine Translation.**
+*Anna Currey, Antonio Valerio Miceli Barone, and Kenneth Heafield.* WMT 2017.  [paper](http://www.aclweb.org/anthology/W17-4715)
+
 
 ### Domain adaptation:
+
+* **Sentence Embedding for Neural Machine Translation Domain Adaptation.**
+*Rui Wang, Andrew Finch, Masao Utiyama and Eiichiro Sumita.* ACL 2017.  [paper](http://www.aclweb.org/anthology/P17-2089)
 
 * **Multi-Domain Neural Machine Translation with Word-Level Domain Context Discrimination.**
 *Jiali Zeng, Jinsong Su, Huating Wen, Yang Liu, Jun Xie, Yongjing Yin, Jianqiang Zhao.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1041)
@@ -173,6 +355,19 @@ I have read all the papers. Hope you can fine something you need(like)!
 * **Learning Hidden Unit Contribution for Adapting Neural Machine Translation Models.**
 *David Vilar.* NAACL 2018.  [paper](http://www.aclweb.org/anthology/N18-2080)
 
+### Multilingual NMT:
+
+* **Contextual Parameter Generation for Universal Neural Machine Translation.**
+*Emmanouil Antonios Platanios, Mrinmaya Sachan, Graham Neubig, Tom Mitchell.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1039)
+
+* **Rapid Adaptation of Neural Machine Translation to New Languages.**
+*Graham Neubig, Junjie Hu.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1103)
+
+* **Three Strategies to Improve One-to-Many Multilingual Translation.**
+*Yining Wang, Jiajun Zhang, Feifei Zhai, Jingfang Xu and Chengqing Zong.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1326)
+
+* **Parameter Sharing Methods for Multilingual Self-Attentional Translation Models.**
+*Devendra Singh Sachan, Graham Neubig.* WMT 2018.  [paper](http://aclweb.org/anthology/W18-6327)
 
 ### Multi Task/Source NMT:
 
@@ -182,78 +377,37 @@ I have read all the papers. Hope you can fine something you need(like)!
 * **Multi-task Sequence to Sequence Learning.**
 *Minh-Thang Luong, Quoc V. Le, Ilya Sutskever, Oriol Vinyals, Lukasz Kaiser.* ICLR 2016.  [paper](https://arxiv.org/pdf/151*06114.pdf)
 
+* **Neural System Combination for Machine Translation.**
+*Long Zhou, Wenpeng Hu, Jiajun Zhang, Chengqing Zong.* ACL 2017.  [paper](http://aclweb.org/anthology/P17-2060)
+
 * **Attention Strategies for Multi-Source Sequence-to-Sequence Learning.**
 *Jindřich Libovický, Jindřich Helcl.* ACL 2017.  [paper](http://aclweb.org/anthology/P17-2031)
+
+* **Doubly-Attentive Decoder for Multi-modal Neural Machine Translation.**
+*Jindřich Libovický, Jindřich Helcl.* ACL 2017.  [paper](http://aclweb.org/anthology/P17-1175)
 
 * **Input Combination Strategies for Multi-Source Transformer Decoder.**
 *Jindřich Libovický, Jindřich Helcl and David Marecek.* WMT 2018.  [paper](http://www.statmt.org/wmt18/pdf/WMT026.pdf)
 
+* **Multi-Source Syntactic Neural Machine Translation.**
+*Anna Currey, Kenneth Heafield.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1327)
 
-### Model Improvement :
+* **Multi-Source Neural Machine Translation with Data Augmentation.**
+*Yuta Nishimura, Katsuhito Sudoh, Graham Neubig, Satoshi Nakamura.* IWSLT 2018.  [paper](https://arxiv.org/pdf/1810.06826.pdf)
 
-* **Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation.**
-*Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V. Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner, Apurva Shah, Melvin Johnson, Xiaobing Liu, Łukasz Kaiser, Stephan Gouws, Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian, Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick, Oriol Vinyals, Greg Corrado, Macduff Hughes, Jeffrey Dean.* 2016.  [paper](https://arxiv.org/pdf/1609.08144.pdf)
+### Incorporate External Knowledge:
 
-* **Non-Autoregressive Neural Machine Translation.**
-*Jiatao Gu, James Bradbury, Caiming Xiong, Victor O.K. Li, Richard Socher.* ICLR 2018.  [paper](https://openreview.net/pdf?id=B1l8BtlCb)
+* **Improving Neural Machine Translation by Incorporating Hierarchical Subword Features.**
+*Makoto Morishita, Jun Suzuki and Masaaki Nagata.* COLING 2018.  [paper](http://aclweb.org/anthology/C18-1052)
 
-* **Semi-Autoregressive Neural Machine Translation.**
-*Chunqi Wang, Ji Zhang, Haiqing Chen.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1044)
-
-* **Self-Attention with Relative Position Representations.**
-*Peter Shaw, Jakob Uszkoreit, Ashish Vaswani.* ACL 2018.  [paper](http://aclweb.org/anthology/N18-2074)
-
-* **Universal Transformers.**
-*Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, Łukasz Kaiser.*  [paper](https://arxiv.org/pdf/1807.03819.pdf)
-
-* **Layer-Wise Coordination between Encoder and Decoder for Neural Machine Translation.**
-*He Tianyu, Tan Xu, Xia Yingce, He Di, Qin Tao, Chen Zhibo, Liu Tie-Yan.* NIPS 2018.  [paper](http://papers.nips.cc/paper/8019-layer-wise-coordination-between-encoder-and-decoder-for-neural-machine-translation.pdf)
-
-* **The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation.**
-*Sameen Maruf, Gholamreza Haffari.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1008)
-
-* **You May Not Need Attention.**
-*Ofir Press, Noah A. Smith.*  2018.  [paper](https://arxiv.org/pdf/1810.13409.pdf)
-
-
-#### Weight Tying:
-
-* **Using the Output Embedding to Improve Language Models.**
-*Ofir Press, Lior Wolf.* EACL 2017.  [paper](http://aclweb.org/anthology/E17-2025)
-
-* **Beyond Weight Tying: Learning Joint Input-Output Embeddings for Neural Machine Translation.**
-*Nikolaos Pappas, Lesly Miculicich Werlen, James Henderson.* WMT 2018.  [paper](http://aclweb.org/anthology/W18-6308)
-
-#### Convolutional NMT:
-
-* **Convolutional Sequence to Sequence Learning.**
-*Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin.*  2017.  [paper](https://arxiv.org/pdf/1705.03122.pdf)
-
-### Objective Function:
-
-### Low Source:
-
-* **Rapid Adaptation of Neural Machine Translation to New Languages.**
-*Graham Neubig, Junjie Hu.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1103)
-
-* **Copied Monolingual Data Improves Low-Resource Neural Machine Translation.**
-*Anna Currey, Antonio Valerio Miceli Barone, and Kenneth Heafield.* WMT 2017.  [paper](http://www.aclweb.org/anthology/W17-4715)
-
-### Multilingual NMT:
-
-* **Contextual Parameter Generation for Universal Neural Machine Translation.**
-*Emmanouil Antonios Platanios, Mrinmaya Sachan, Graham Neubig, Tom Mitchell.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1039)
-
-* **Three Strategies to Improve One-to-Many Multilingual Translation.**
-*Yining Wang, Jiajun Zhang, Feifei Zhai, Jingfang Xu and Chengqing Zong.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1326)
-
-### Unsupervised NMT:
-
-### Incorporate Monolingual Data:
+* **Inducing Grammars with and for Neural Machine Translation.**
+*Ke Tran, Yonatan Bisk.* WNMT 2018.  [paper](http://aclweb.org/anthology/W18-2704)
 
 * **Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning.**
 *Tobias Domhan and Felix Hieber.* EMNLP 2017.  [paper](http://aclweb.org/anthology/D17-1158)
 
+* **Addressing Troublesome Words in Neural Machine Translation.**
+*Yang Zhao1, Jiajun Zhang, Zhongjun He, Chengqing Zong, and Hua Wu.* EMNLP 2018.  [paper](http://www.aclweb.org/anthology/D18-1036)
 
 #### Back-Translation:
 
@@ -271,6 +425,9 @@ I have read all the papers. Hope you can fine something you need(like)!
 * **Neural Machine Translation of Rare Words with Subword Units.**
 *Rico Sennrich and Barry Haddow and Alexandra Birch.* ACL 2016.  [paper](http://www.aclweb.org/anthology/P16-1162)
 
+* **Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates.**
+*Taku Kudo.* ACL 2018.  [paper](http://www.aclweb.org/anthology/P18-1007)
+
 ### Evaluation:
 
 * **Statistical Significance Tests for Machine Translation Evaluation.**
@@ -284,4 +441,6 @@ I have read all the papers. Hope you can fine something you need(like)!
 
 * **A Call for Clarity in Reporting BLEU Scores.**
 *Matt Post.* WMT 2018.  [paper](http://aclweb.org/anthology/W18-6319)
+
+### Unsupervised NMT:
 
