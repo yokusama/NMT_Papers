@@ -8,7 +8,22 @@ Machine translation is a very interesting research direction! Hope you can fine 
 
 If you are interested in machine translation and have any questions, **please feel free to contact me!**
 
-### Must Reads:
+* [Must Reads](#mustreads)
+* [Analysis](#analysis)
+* [Attention Mechanism](#attention)
+* [Model Improvement](#modelimprovement)
+* [Context and Document-level NMT](#document-level)
+* [Objective Function](#objectivefunction)
+* [Low Source](#lowsource)
+* [Domain adaptation](#domainadaptation)
+* [Multilingual NMT](#multilingual)
+* [Multi Task/Source NMT](#multitask)
+* [Incorporate External Knowledge](#externalknowledge)
+* [OOV Problem](#oov)
+* [Evaluation](#evaluation)
+* [Unsupervised NMT](#unsupervised)
+
+<h2 id="mustreads">Must Reads</h2> 
 
 * **Sequence to Sequence Learning with Neural Networks.**
 *Ilya Sutskever, Oriol Vinyals, Quoc V. Le.* NIPS 2014. [paper](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)
@@ -35,8 +50,7 @@ If you are interested in machine translation and have any questions, **please fe
 *Rico Sennrich and Barry Haddow and Alexandra Birch.* ACL 2016.  [paper](http://www.aclweb.org/anthology/P16-1162)
 
 
-
-### Analysis:
+<h2 id="analysis">Analysis:</h2> 
 
 * **Does String-Based Neural MT Learn Source Syntax?.**
 *Xing Shi, Inkit Padhi, and Kevin Knight.* EMNLP 2016.  [paper](http://aclweb.org/anthology/D16-1159)
@@ -86,7 +100,7 @@ If you are interested in machine translation and have any questions, **please fe
 * **Getting Gender Right in Neural Machine Translation.**
 *Eva Vanmassenhove, Christian Hardmeier, Andy Way.* EMNLP 2018.  [paper](http://www.aclweb.org/anthology/D18-1334)
 
-### Attention :
+<h2 id="attention">Attention Mechanism:</h2> 
 
 #### RNN seq2seq:
 
@@ -140,7 +154,7 @@ If you are interested in machine translation and have any questions, **please fe
 * **Pay Less Attention with Lightweight and Dynamic Convolutions.**
 *Felix Wu, Angela Fan, Alexei Baevski, Yann N. Dauphin, Michael Auli.* ICLR 2019.  [paper](https://openreview.net/pdf?id=SkVhlh09tX)
 
-### Model Improvement :
+<h2 id="modelimprovement">Model Improvement:</h2> 
 
 #### RNN seq2seq:
 
@@ -271,7 +285,7 @@ If you are interested in machine translation and have any questions, **please fe
 * **Convolutional Sequence to Sequence Learning.**
 *Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin.*  2017.  [paper](https://arxiv.org/pdf/1705.03122.pdf)
 
-### Context and Document-level NMT:
+<h2 id="document-level">Context and Document-level NMT:</h2>
 
 * **Neural Machine Translation with Extended Context.**
 *Jorg Tiedemann and Yves Scherrer.* DiscoMT 2017.  [paper](http://www.aclweb.org/anthology/W17-4811)
@@ -326,13 +340,12 @@ If you are interested in machine translation and have any questions, **please fe
 * **Handling Homographs in Neural Machine Translation.**
 *Frederick Liu, Han Lu, Graham Neubig.* NAACL 2018.  [paper](http://aclweb.org/anthology/N18-1121)
 
-### Objective Function:
+<h2 id="objectivefunction">Objective Function:</h2>
 
 * **Bag-of-Words as Target for Neural Machine Translation.**
 *Shuming Ma, Xu Sun, Yizhong Wang, Junyang Lin.*  ACL 2018.  [paper](http://www.aclweb.org/anthology/P18-2053)
 
-
-### Low Source:
+<h2 id="lowsource">Low Source:</h2>
 
 * **Rapid Adaptation of Neural Machine Translation to New Languages.**
 *Graham Neubig, Junjie Hu.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1103)
@@ -340,8 +353,7 @@ If you are interested in machine translation and have any questions, **please fe
 * **Copied Monolingual Data Improves Low-Resource Neural Machine Translation.**
 *Anna Currey, Antonio Valerio Miceli Barone, and Kenneth Heafield.* WMT 2017.  [paper](http://www.aclweb.org/anthology/W17-4715)
 
-
-### Domain adaptation:
+<h2 id="domainadaptation">Domain adaptation:</h2>
 
 * **Sentence Embedding for Neural Machine Translation Domain Adaptation.**
 *Rui Wang, Andrew Finch, Masao Utiyama and Eiichiro Sumita.* ACL 2017.  [paper](http://www.aclweb.org/anthology/P17-2089)
@@ -355,7 +367,7 @@ If you are interested in machine translation and have any questions, **please fe
 * **Learning Hidden Unit Contribution for Adapting Neural Machine Translation Models.**
 *David Vilar.* NAACL 2018.  [paper](http://www.aclweb.org/anthology/N18-2080)
 
-### Multilingual NMT:
+<h2 id="multilingual">Multilingual NMT:</h2>
 
 * **Contextual Parameter Generation for Universal Neural Machine Translation.**
 *Emmanouil Antonios Platanios, Mrinmaya Sachan, Graham Neubig, Tom Mitchell.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1039)
@@ -369,7 +381,7 @@ If you are interested in machine translation and have any questions, **please fe
 * **Parameter Sharing Methods for Multilingual Self-Attentional Translation Models.**
 *Devendra Singh Sachan, Graham Neubig.* WMT 2018.  [paper](http://aclweb.org/anthology/W18-6327)
 
-### Multi Task/Source NMT:
+<h2 id="multitask">Multi Task/Source NMT:</h2>
 
 * **Multi-Source Neural Translation.**
 *Barret Zoph and Kevin Knight.* NAACL 2016.  [paper](http://www.aclweb.org/anthology/N16-1004)
@@ -395,7 +407,7 @@ If you are interested in machine translation and have any questions, **please fe
 * **Multi-Source Neural Machine Translation with Data Augmentation.**
 *Yuta Nishimura, Katsuhito Sudoh, Graham Neubig, Satoshi Nakamura.* IWSLT 2018.  [paper](https://arxiv.org/pdf/1810.06826.pdf)
 
-### Incorporate External Knowledge:
+<h2 id="externalknowledge">Incorporate External Knowledge:</h2>
 
 * **Improving Neural Machine Translation by Incorporating Hierarchical Subword Features.**
 *Makoto Morishita, Jun Suzuki and Masaaki Nagata.* COLING 2018.  [paper](http://aclweb.org/anthology/C18-1052)
@@ -420,7 +432,7 @@ If you are interested in machine translation and have any questions, **please fe
 * **Understanding Back-Translation at Scale.**
 *Sergey Edunov, Myle Ott, Michael Auli, David Grangier.* EMNLP 2018.  [paper](https://aclanthology.info/papers/D18-1045/d18-1045)
 
-### OOV Problem:
+<h2 id="oov">OOV Problem:</h2>
 
 * **Neural Machine Translation of Rare Words with Subword Units.**
 *Rico Sennrich and Barry Haddow and Alexandra Birch.* ACL 2016.  [paper](http://www.aclweb.org/anthology/P16-1162)
@@ -428,7 +440,7 @@ If you are interested in machine translation and have any questions, **please fe
 * **Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates.**
 *Taku Kudo.* ACL 2018.  [paper](http://www.aclweb.org/anthology/P18-1007)
 
-### Evaluation:
+<h2 id="evaluation">Evaluation:</h2>
 
 * **Statistical Significance Tests for Machine Translation Evaluation.**
 *Philipp Koehn.* EMNLP 2004.  [paper](http://aclweb.org/anthology/W04-3250)
@@ -442,5 +454,5 @@ If you are interested in machine translation and have any questions, **please fe
 * **A Call for Clarity in Reporting BLEU Scores.**
 *Matt Post.* WMT 2018.  [paper](http://aclweb.org/anthology/W18-6319)
 
-### Unsupervised NMT:
+<h2 id="unsupervised">Unsupervised NMT:</h2>
 
