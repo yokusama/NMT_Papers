@@ -1,6 +1,6 @@
 # NMT_Papers (Update Continuously)
 
-## Recommended Papers for NMT (Neural Machine Translation)
+## Some Papers about NMT (Neural Machine Translation)
 
 Some papers I have read about NMT.
 
