@@ -418,6 +418,12 @@ If you are interested in machine translation and have any questions, **please fe
 * **Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning.**
 *Tobias Domhan and Felix Hieber.* EMNLP 2017.  [paper](http://aclweb.org/anthology/D17-1158)
 
+* **Modeling Source Syntax for Neural Machine Translation.**
+*Junhui Li, Deyi Xiong, Zhaopeng Tu, Muhua Zhu, Min Zhang, Guodong Zhou.* ACL 2017.  [paper](http://aclweb.org/anthology/P17-1064)
+
+* **Syntax-Directed Attention for Neural Machine Translation.**
+*Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita, Tiejun Zhao.* AAAI 2018.  [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16060/16008)
+
 * **Addressing Troublesome Words in Neural Machine Translation.**
 *Yang Zhao1, Jiajun Zhang, Zhongjun He, Chengqing Zong, and Hua Wu.* EMNLP 2018.  [paper](http://www.aclweb.org/anthology/D18-1036)
 
