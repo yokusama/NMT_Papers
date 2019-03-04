@@ -266,7 +266,7 @@ If you are interested in machine translation and have any questions, **please fe
 * **A Novel Approach to Dropped Pronoun Translation.**
 *Longyue Wang, Zhaopeng Tu, Xiaojun Zhang, Hang Li, Andy Way, Qun Liu* NAACL 2016.  [paper](http://www.aclweb.org/anthology/N16-1113)
 
-* **The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation.**
+* **Translating Pro-Drop Languages with Reconstruction Models.**
 *Longyue Wang, Zhaopeng Tu, Shuming Shi, Tong Zhang, Yvette Graham, Qun Liu.* AAAI 2018.  [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16187/16026)
 
 * **Learning to Jointly Translate and Predict Dropped Pronouns with a Shared Reconstruction Mechanism.**
