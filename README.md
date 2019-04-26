@@ -151,8 +151,16 @@ If you are interested in machine translation and have any questions, **please fe
 * **Multi-Head Attention with Disagreement Regularization.**
 *Jian Li, Zhaopeng Tu, Baosong Yang, Michael R. Lyu, Tong Zhang.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1317)
 
+* **Information Aggregation for Multi-Head Attention with Routing-by-Agreement.**
+*Jian Li, Baosong Yang, Zi-Yi Dou, Xing Wang, Michael R. Lyu, Zhaopeng Tu.* NAACL 2019.  [paper](https://arxiv.org/pdf/1904.03100.pdf)
+
 * **Pay Less Attention with Lightweight and Dynamic Convolutions.**
 *Felix Wu, Angela Fan, Alexei Baevski, Yann N. Dauphin, Michael Auli.* ICLR 2019.  [paper](https://openreview.net/pdf?id=SkVhlh09tX)
+
+* **Convolutional Self-Attention Network.**
+*Baosong Yang, Longyue Wang, Derek F. Wong, Lidia S. Chao, Zhaopeng Tu.* NAACL 2019.  [paper](https://arxiv.org/pdf/1904.03107.pdf)
+
+
 
 <h2 id="modelimprovement">Model Improvement:</h2> 
 
@@ -230,7 +238,10 @@ If you are interested in machine translation and have any questions, **please fe
 *Yingce Xia, Tianyu He, Xu Tan, Fei Tian, Di He and Tao Qin.*  AAAI 2019.  [paper](https://taoqin.github.io/papers/tiedT.AAAI2019.pdf)
 
 * **The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation.**
-*Sameen Maruf, Gholamreza Haffari.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1008)
+*Mia Xu Chen, Orhan Firat, Ankur Bapna, Melvin Johnson, Wolfgang Macherey, George Foster, Llion Jones, Niki Parmar, Mike Schuster, Zhifeng Chen, Yonghui Wu, Macduff Hughes.* ACL 2018.  [paper](http://aclweb.org/anthology/P18-1008)
+
+* **Modeling Recurrence for Transformer.**
+*Jie Hao, Xing Wang, Baosong Yang, Longyue Wang, Jinfeng Zhang, Zhaopeng Tu.* NAACL 2019.  [paper](https://arxiv.org/pdf/1904.03092.pdf)
 
 * **Multi-layer Representation Fusion for Neural Machine Translation.**
 *Qiang Wang, Fuxue Li†, Tong Xiao, Yanyang Li, Yinqiao Li, Jingbo Zhu.* COLING 2018.  [paper](http://aclweb.org/anthology/C18-1255)
@@ -239,7 +250,8 @@ If you are interested in machine translation and have any questions, **please fe
 *Zi-Yi Dou, Zhaopeng Tu, Xing Wang, Shuming Shi, Tong Zhang.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1457)
 
 * **Dynamic Layer Aggregation for Neural Machine Translation with Routing-by-Agreement.**
-*Zi-Yi Dou, Zhaopeng Tu, Xing Wang, Shuming Shi, Tong Zhang.* AAAI 2019.  [paper](Zi-Yi Dou, Zhaopeng Tu, Xing Wang, Longyue Wang, Shuming Shi, Tong Zhang)
+*Zi-Yi Dou, Zhaopeng Tu, Xing Wang, Shuming Shi, Tong Zhang.* AAAI 2019.  [paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-DouZ.3868.pdf)
+
 
 #### Memory Augmented NMT:
 
