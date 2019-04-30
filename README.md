@@ -160,6 +160,8 @@ If you are interested in machine translation and have any questions, **please fe
 * **Convolutional Self-Attention Network.**
 *Baosong Yang, Longyue Wang, Derek F. Wong, Lidia S. Chao, Zhaopeng Tu.* NAACL 2019.  [paper](https://arxiv.org/pdf/1904.03107.pdf)
 
+* **Context-Aware Self-Attention Networks.**
+*Baosong Yang, Jian Li, Derek Wong, Lidia S. Chao, Xing Wang, Zhaopeng Tu.* AAAI 2019.  [paper](https://arxiv.org/pdf/1902.05766.pdf)
 
 
 <h2 id="modelimprovement">Model Improvement:</h2> 
@@ -327,6 +329,9 @@ If you are interested in machine translation and have any questions, **please fe
 
 * **Document-Level Neural Machine Translation with Hierarchical Attention Networks.**
 *Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas, James Henderson.* EMNLP 2018.  [paper](http://aclweb.org/anthology/D18-1325)
+
+* **Selective Attention for Context-aware Neural Machine Translation.**
+*Sameen Maruf, André F. T. Martins, Gholamreza Haffari.* NAACL 2019.  [paper](https://arxiv.org/pdf/1903.08788.pdf)
 
 * **Modeling Coherence for Discourse Neural Machine Translation.**
 *Hao Xiong, Zhongjun He, Hua Wu, Haifeng Wang.* AAAI 2019.  [paper](https://arxiv.org/pdf/1811.05683.pdf)
