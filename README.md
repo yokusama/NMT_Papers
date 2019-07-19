@@ -654,13 +654,16 @@ If you are interested in machine translation and have any questions, **please fe
 #### Controling NMT
 
 * **Controlling Politeness in Neural Machine Translation via Side Constraints.**
-*Rico Sennrich, Barry Haddow, Alexandra Birch.*  NAACL 17.  [paper](https://www.aclweb.org/anthology/N16-1005)
+*Rico Sennrich, Barry Haddow, Alexandra Birch.*  NAACL 2017.  [paper](https://www.aclweb.org/anthology/N16-1005)
 
 * **A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output.**
-*Xing Niu, Marianna Martindale, Marine Carpuat.*  EMNLP 17.  [paper](https://www.aclweb.org/anthology/D17-1299)
+*Xing Niu, Marianna Martindale, Marine Carpuat.*  EMNLP 2017.  [paper](https://www.aclweb.org/anthology/D17-1299)
 
 * **Improved Neural Machine Translation using Side Information.**
-*Cong Duy Vu Hoang, Gholamreza Haffari, Trevor Cohn.*  ALTA 18.  [paper](https://www.aclweb.org/anthology/U18-1001)
+*Cong Duy Vu Hoang, Gholamreza Haffari, Trevor Cohn.*  ALTA 1208.  [paper](https://www.aclweb.org/anthology/U18-1001)
+
+* **Linguistic Input Features Improve Neural Machine Translation.**
+*Rico Sennrich, Barry Haddow.*  WMT 2016.  [paper](https://www.aclweb.org/anthology/W16-2209)
 
 * **Equalizing Gender Biases in Neural Machine Translation with Word Embeddings Techniques.**
 *Joel Escudé Font, Marta R. Costa-jussà.*  ACL WS 2019.  [paper](https://arxiv.org/pdf/1901.03116.pdf)
