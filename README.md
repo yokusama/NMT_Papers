@@ -42,7 +42,7 @@ If you are interested in machine translation and have any questions, **please fe
 *Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin.*  2017.  [paper](https://arxiv.org/pdf/1705.03122.pdf)
 
 * **Attention Is All You Need.**
-*Mia Xu Chen, Orhan Firat, Ankur Bapna, Melvin Johnson, Wolfgang Macherey, George Foster, Llion Jones, Niki Parmar, Mike Schuster, Zhifeng Chen, Yonghui Wu, Macduff Hughes.* ACL 2018.  [paper](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
+*Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin.* NIPS 2017.  [paper](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
 
 * **BLEU: a Method for Automatic Evaluation of Machine Translation.**
 *Kishore Papineni, Salim Roukos, Todd Ward, Wei-Jing Zhu.* ACL 2002.  [paper](https://www.aclweb.org/anthology/P02-1040.pdf)
