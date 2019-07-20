@@ -74,6 +74,9 @@ If you are interested in machine translation and have any questions, **please fe
 * **When and Why are Pre-trained Word Embeddings Useful for Neural Machine Translation?**
 *Ye Qi, Devendra Singh Sachan, Matthieu Felix, Sarguna Janani Padmanabhan, Graham Neubig.* NAACL 2018.  [paper](http://www.aclweb.org/anthology/N18-2084)
 
+* **Pre-trained Language Model Representations for Language Generation**
+*Sergey Edunov, Alexei Baevski, Michael Auli.* NAACL 2019.  [paper](https://www.aclweb.org/anthology/N19-1409)
+
 * **A Comparison of Transformer and Recurrent Neural Networks on Multilingual Neural Machine Translation.**
 *Surafel M. Lakew, Mauro Cettolo, Marcello Federico.* COLING 2018.  [paper](http://aclweb.org/anthology/C18-1054)
 
