@@ -340,15 +340,10 @@ EMNLP 2019.
 #### RNN seq2seq:
 
 * **Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation.**
-*Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V. Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner, Apurva Shah, Melvin Johnson, Xiaobing Liu, Łukasz Kaiser, Stephan Gouws, Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian, Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick, Oriol Vinyals, Greg Corrado, Macduff Hughes, Jeffrey Dean.*
-2016.
-[paper](https://arxiv.org/pdf/1609.08144.pdf)
+*Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V. Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner, Apurva Shah, Melvin Johnson, Xiaobing Liu, Łukasz Kaiser, Stephan Gouws, Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian, Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick, Oriol Vinyals, Greg Corrado, Macduff Hughes, Jeffrey Dean.* 2016. [paper](https://arxiv.org/pdf/1609.08144.pdf)
 
 * **You May Not Need Attention.**
-*Ofir Press, Noah A. Smith.*
-2018.
-[paper](https://arxiv.org/pdf/1810.13409.pdf)
-[code](https://github.com/ofirpress/YouMayNotNeedAttention)
+*Ofir Press, Noah A. Smith.* 2018. [paper](https://arxiv.org/pdf/1810.13409.pdf)
 
 * **Context Gates for Neural Machine Translation.**
 *Zhaopeng Tu, Yang Liu, Zhengdong Lu, Xiaohua Liu, Hang Li.*
