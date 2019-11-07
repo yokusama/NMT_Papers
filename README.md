@@ -166,6 +166,11 @@ EMNLP 2019.
 EMNLP 2019.
 [paper](https://arxiv.org/pdf/1909.01380.pdf)
 
+* **Understanding Data Augmentation in Neural Machine Translation: Two Perspectives towards Generalization.**
+*Guanlin Li, Lemao Liu, Guoping Huang, Conghui Zhu, Tiejun Zhao.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1570/)
+
 ### Attention Analysis
 
 * **An Analysis of Encoder Representations in Transformer-Based Machine Translation.**
@@ -355,6 +360,11 @@ EMNLP 2019.
 EMNLP 2019.
 [paper](https://arxiv.org/abs/1909.01562)
 
+* **Mixed Multi-Head Self-Attention for Neural Machine Translation.**
+*Hongyi Cui, Shohei Iida, Po-Hsuan Hung, Takehito Utsuro, Masaaki Nagata.*
+WNGT 2019.
+[paper](https://www.aclweb.org/anthology/D19-5622/)
+
 <h2 id="modelimprovement">Model Improvement:</h2> 
 
 #### RNN seq2seq:
@@ -507,6 +517,11 @@ NIPS 2017.
 ICLR 2019.
 [paper](https://openreview.net/pdf?id=H1z-PsR5KX)
 
+* **Towards Linear Time Neural Machine Translation with Capsule Networks.**
+*Mingxuan Wang, Jun Xie, Zhixing Tan, Jinsong Su, Deyi xiong, Lei Li.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1074/)
+
 ##### Deeper 
 
 * **Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation.**
@@ -616,6 +631,11 @@ ACL 2019.
 IWSLT 2019.
 [paper](https://arxiv.org/pdf/1910.05895.pdf)
 [code](https://github.com/tnq177/transformers_without_tears)
+
+* **Recurrent Positional Embedding for Neural Machine Translation.**
+*Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1139/)
 
 ##### Deeper:
 
@@ -827,6 +847,16 @@ COLING 2018.
 COLING 2018.
 [paper](http://aclweb.org/anthology/C18-1051)
 
+* **Hierarchical Modeling of Global Context for Document-Level Neural Machine Translation.**
+*Xin Tan, Longyin Zhang, Deyi Xiong, Guodong Zhou.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1168/)
+
+* **Enhancing Context Modeling with a Query-Guided Capsule Network for Document-level Translation.**
+*Zhengxin Yang, Jinchao Zhang, Fandong Meng, Shuhao Gu, Yang Feng, Jie Zhou.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1164/)
+
 * **A Large-Scale Test Set for the Evaluation of Context-Aware Pronoun Translation in Neural Machine Translation.**
 *Mathias Müller, Annette Rios, Elena Voita, Rico Sennrichu.*
 WMT 2018.
@@ -960,6 +990,11 @@ NAACL 2019.
 ACL 2019.
 [paper](https://www.aclweb.org/anthology/P19-1178/)
 
+* **Multi-agent Learning for Neural Machine Translation.**
+*Tianchi Bi, Hao Xiong, Zhongjun He, Hua Wu, Haifeng Wang.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1079/)
+
 <h2 id="robustness">Robustness:</h2>
 
 * **Robust Neural Machine Translation with Joint Textual and Phonetic Embedding.**
@@ -1015,6 +1050,11 @@ ACL 2019.
 [paper](https://www.aclweb.org/anthology/P19-1555/)
 [code](https://github.com/teslacool/SCA)
 
+* **Exploiting Monolingual Data at Scale for Neural Machine Translation.**
+*Lijun Wu, Yiren Wang, Yingce Xia, Tao QIN, Jianhuang Lai, Tie-Yan Liu.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1430/)
+
 #### Back-Translation:
 
 * **Improving Neural Machine Translation Models with Monolingual Data.**
@@ -1046,6 +1086,11 @@ WNGT 2018.
 *Isaac Caswell, Ciprian Chelba, David Grangier.*
 WMT 2019.
 [paper](https://www.aclweb.org/anthology/W19-5206/)
+
+* **Improving Back-Translation with Uncertainty-based Confidence Estimation.**
+*Shuo Wang, Yang Liu, Chao Wang, Huanbo Luan, Maosong Sun.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1073/)
 
 * **APE at Scale and its Implications on MT Evaluation Biases.**
 *Markus Freitag, Isaac Caswell, Scott Roy.*
@@ -1262,7 +1307,6 @@ AAAI 2017.
 *Fengshun Xiao, Jiangtong Li, Hai Zhao, Rui Wang, Kehai Chen.*
 ACL 2019.
 [paper](https://www.aclweb.org/anthology/P19-1298/)
-
 
 #### Controling NMT
 
