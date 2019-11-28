@@ -105,12 +105,6 @@ NAACL 2018.
 [paper](http://www.aclweb.org/anthology/N18-2084)
 [code](https://github.com/neulab/word-embeddings-for-nmt)
 
-* **Pre-trained Language Model Representations for Language Generation**
-*Sergey Edunov, Alexei Baevski, Michael Auli.*
-NAACL 2019.
-[paper](https://www.aclweb.org/anthology/N19-1409)
-[code](https://github.com/pytorch/fairseq/tree/bi_trans_lm/examples/pretraining)
-
 * **A Comparison of Transformer and Recurrent Neural Networks on Multilingual Neural Machine Translation.**
 *Surafel M. Lakew, Mauro Cettolo, Marcello Federico.*
 COLING 2018.
@@ -173,7 +167,7 @@ EMNLP 2019.
 
 ### Attention Analysis
 
-* **An Analysis of Encoder Representations in Transformer-Based Machine Translation.**
+* **An Analysis of Encoder Representations in Transformer-Based Machine Translation.** 
 *Alessandro Raganato and Jorg Tiedemann.*
 EMNLP Worshopp BlackboxNLP 2018.
 [paper](http://aclweb.org/anthology/W18-5431)
@@ -212,7 +206,7 @@ ACL 2019.
 
 * **Are Sixteen Heads Really Better than One?.**
 *Paul Michel, Omer Levy, Graham Neubig.*
-Arxiv 2019.
+NIPS 2019.
 [paper](https://arxiv.org/pdf/1905.10650.pdf)
 [code](https://github.com/pmichel31415/are-16-heads-really-better-than-1)
 
@@ -364,6 +358,11 @@ EMNLP 2019.
 *Hongyi Cui, Shohei Iida, Po-Hsuan Hung, Takehito Utsuro, Masaaki Nagata.*
 WNGT 2019.
 [paper](https://www.aclweb.org/anthology/D19-5622/)
+
+* **Generating Diverse Translation by Manipulating Multi-Head Attention.**
+*Zewei Sun, Shujian Huang, Hao-Ran Wei, Xin-yu Dai, Jiajun Chen.*
+AAAI 2020.
+[paper](https://arxiv.org/pdf/1911.09333.pdf)
 
 <h2 id="modelimprovement">Model Improvement:</h2> 
 
@@ -626,16 +625,27 @@ EMNLP 2019.
 ACL 2019.
 [paper](https://www.aclweb.org/anthology/P19-1174)
 
+* **Recurrent Positional Embedding for Neural Machine Translation.**
+*Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1139/)
+
 * **Transformers without Tears: Improving the Normalization of Self-Attention.**
 *Toan Q. Nguyen, Julian Salazar.*
 IWSLT 2019.
 [paper](https://arxiv.org/pdf/1910.05895.pdf)
 [code](https://github.com/tnq177/transformers_without_tears)
 
-* **Recurrent Positional Embedding for Neural Machine Translation.**
-*Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita.*
-EMNLP 2019.
-[paper](https://www.aclweb.org/anthology/D19-1139/)
+* **Neuron Interaction Based Representation Composition for Neural Machine Translation.**
+*Jian Li, Xing Wang, Baosong Yang, Shuming Shi, Michael R. Lyu, Zhaopeng Tu.*
+AAAI 2020.
+[paper](https://arxiv.org/pdf/1911.09877.pdf)
+
+* **Sequence Modeling with Unconstrained Generation Order.**
+*Dmitrii Emelianenko, Elena Voita, Pavel Serdyukov.*
+NIPS 2019.
+[paper](https://arxiv.org/pdf/1911.00176.pdf)
+[code](https://github.com/TIXFeniks/neurips2019_intrus)
 
 ##### Deeper:
 
@@ -692,10 +702,27 @@ NIPS 2019.
 
 #### Non/Semi Autoregressive NMT:
 
+* **Understanding Knowledge Distillation in Non-autoregressive Machine Translation.**
+*Chunting Zhou, Graham Neubig, Jiatao Gu.*
+Arxiv 2019.
+[paper](https://arxiv.org/pdf/1911.02727.pdf)
+
 * **Non-Autoregressive Neural Machine Translation.**
 *Jiatao Gu, James Bradbury, Caiming Xiong, Victor O.K. Li, Richard Socher.*
 ICLR 2018.
 [paper](https://openreview.net/pdf?id=B1l8BtlCb)
+
+* **Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement.**
+*Jason Lee, Elman Mansimov, Kyunghyun Cho.*
+EMNLP 2018.
+[paper](https://www.aclweb.org/anthology/D18-1149/)
+[code](https://github.com/nyu-dl/dl4mt-nonauto)
+
+* **Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior.**
+*Raphael Shu, Jason Lee, Hideki Nakayama, Kyunghyun Cho.*
+AAAI 2020.
+[paper](https://arxiv.org/pdf/1908.07181.pdf)
+[code](https://github.com/zomux/lanmt)
 
 * **Semi-Autoregressive Neural Machine Translation.**
 *Chunqi Wang, Ji Zhang, Haiqing Chen.*
@@ -733,10 +760,48 @@ ACL 2019.
 ACL 2019.
 [paper](https://www.aclweb.org/anthology/P19-1125/)
 
+* **Hint-Based Training for Non-Autoregressive Machine Translation.**
+*Zhuohan Li, Zi Lin, Di He, Fei Tian, Tao QIN, Liwei WANG, Tie-Yan Liu.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1573/)
+
+* **Non-Autoregressive Neural Machine Translation with Enhanced Decoder Input.**
+*Junliang Guo, Xu Tan, Di He, Tao Qin, Linli Xu, Tie-Yan Liu.*
+AAAI 2019.
+[paper](https://arxiv.org/pdf/1812.09664.pdf)
+
+* **Non-Autoregressive Machine Translation with Auxiliary Regularization.**
+*Yiren Wang, Fei Tian, Di He, Tao Qin, ChengXiang Zhai, Tie-Yan Liu.*
+AAAI 2019.
+[paper](https://arxiv.org/pdf/1902.10245.pdf)
+
 * **Syntactically Supervised Transformers for Faster Neural Machine Translation.**
 *Nader Akoury, Kalpesh Krishna, Mohit Iyyer.*
 ACL 2019.
 [paper](https://www.aclweb.org/anthology/P19-1122/)
+
+* **Fast Structured Decoding for Sequence Models.**
+*Zhiqing Sun, Zhuohan Li, Haoqing Wang, Zi Lin, Di He, Zhi-Hong Deng.*
+NIPS 2019.
+[paper](https://arxiv.org/pdf/1910.11555.pdf)
+[code](https://github.com/Edward-Sun/structured-nart)
+
+* **FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow.**
+*Xuezhe Ma, Chunting Zhou, Xian Li, Graham Neubig, Eduard Hovy.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1437/)
+[code](https://github.com/XuezheMax/flowseq)
+
+* **Fine-Tuning by Curriculum Learning for Non-Autoregressive Neural Machine Translation.**
+*Junliang Guo, Xu Tan, Linli Xu, Tao Qin, Enhong Chen, Tie-Yan Liu.*
+AAAI 2020.
+[paper](https://arxiv.org/pdf/1911.08717.pdf)
+
+* **Minimizing the Bag-of-Ngrams Difference for Non-Autoregressive Neural Machine Translation.**
+*Chenze Shao, Jinchao Zhang, Yang Feng, Fandong Meng, Jie Zhou.*
+AAAI 2020.
+[paper](https://arxiv.org/pdf/1911.09320.pdf)
+[code](https://github.com/ictnlp/BoN-NAT)
 
 #### Weight Tying:
 
@@ -889,6 +954,11 @@ DiscoMT 2019.
 [paper](https://arxiv.org/pdf/1910.00294.pdf)
 [code](https://github.com/ducthanhtran/sockeye_document_context)
 
+* **Fill in the Blanks: Imputing Missing Sentences for Larger-Context Neural Machine Translation**
+*Sébastien Jean, Ankur Bapna, Orhan Firat.*
+Arxiv 2019.
+[paper](https://arxiv.org/pdf/1910.14075.pdf)
+
 #### Dropped Pronoun Problem:
 
 * **A Novel Approach to Dropped Pronoun Translation.**
@@ -1028,6 +1098,11 @@ Arxiv 2019.
 [paper](https://arxiv.org/pdf/1902.01509.pdf)
 
 <h2 id="data">Data Augmentation:</h2>
+
+* **Exploiting Source-side Monolingual Data in Neural Machine Translation.**
+*Jiajun Zhang, Chengqing Zong.*
+EMNLP 2016.
+[paper](https://www.aclweb.org/anthology/D16-1160/)
 
 * **Dynamic Data Selection for Neural Machine Translation.**
 *Marlies van der Wees, Arianna Bisazza, Christof Monzy.*
@@ -1308,6 +1383,18 @@ AAAI 2017.
 ACL 2019.
 [paper](https://www.aclweb.org/anthology/P19-1298/)
 
+* **Pre-trained Language Model Representations for Language Generation.**
+*Sergey Edunov, Alexei Baevski, Michael Auli.*
+NAACL 2019.
+[paper](https://www.aclweb.org/anthology/N19-1409)
+[code](https://github.com/pytorch/fairseq/tree/bi_trans_lm/examples/pretraining)
+
+* **MASS: Masked Sequence to Sequence Pre-training for Language Generation.**
+*Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, Tie-Yan Liu.*
+ICML 2019.
+[paper](https://arxiv.org/pdf/1905.02450.pdf)
+[code](https://github.com/microsoft/MASS)
+
 #### Controling NMT
 
 * **Controlling Politeness in Neural Machine Translation via Side Constraints.**
@@ -1357,6 +1444,11 @@ ACL 2016.
 ACL 2018.
 [paper](http://www.aclweb.org/anthology/P18-1007)
 
+* **BPE-Dropout: Simple and Effective Subword Regularization.**
+*Ivan Provilkov, Dmitrii Emelianenko, Elena Voita.*
+Arxiv 2018.
+[paper](https://arxiv.org/pdf/1910.13267.pdf)
+
 <h2 id="evaluation">Evaluation:</h2>
 
 * **Statistical Significance Tests for Machine Translation Evaluation.**
@@ -1391,4 +1483,3 @@ EMNLP 2018.
 
 
 <h2 id="unsupervised">Unsupervised NMT:</h2>
-
