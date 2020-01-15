@@ -18,7 +18,7 @@ If you are interested in machine translation and have any questions, **please fe
 * [Data Augmentation](#data)
 * [Low Source](#lowsource)
 * [Domain adaptation](#domainadaptation)
-* [Multi-lingual/source/task NMT](#multilingual)
+* [Multi-lingual NMT](#multilingual)
 * [Incorporate External Knowledge](#externalknowledge)
 * [Open Vocabulary Problem](#oov)
 * [Evaluation](#evaluation)
@@ -359,11 +359,6 @@ EMNLP 2019.
 WNGT 2019.
 [paper](https://www.aclweb.org/anthology/D19-5622/)
 
-* **Generating Diverse Translation by Manipulating Multi-Head Attention.**
-*Zewei Sun, Shujian Huang, Hao-Ran Wei, Xin-yu Dai, Jiajun Chen.*
-AAAI 2020.
-[paper](https://arxiv.org/pdf/1911.09333.pdf)
-
 <h2 id="modelimprovement">Model Improvement:</h2> 
 
 #### RNN seq2seq:
@@ -511,6 +506,12 @@ AAAI 2018.
 NIPS 2017.
 [paper](https://papers.nips.cc/paper/6775-deliberation-networks-sequence-generation-beyond-one-pass-decoding.pdf)
 
+* **Towards Neural Phrase-based Machine Translation.**
+*Po-Sen Huang, Chong Wang, Sitao Huang, Dengyong Zhou, Li Deng.*
+ICLR 2018.
+[paper](https://arxiv.org/pdf/1706.05565.pdf)
+[code](https://github.com/posenhuang/NPMT)
+
 * **Identifying and Controlling Important Neurons in Neural Machine Translation.**
 *Anthony Bau, Yonatan Belinkov, Hassan Sajjad, Nadir Durrani, Fahim Dalvi, James Glass.*
 ICLR 2019.
@@ -647,6 +648,11 @@ NIPS 2019.
 [paper](https://arxiv.org/pdf/1911.00176.pdf)
 [code](https://github.com/TIXFeniks/neurips2019_intrus)
 
+* **Neural Machine Translation with Soft Prototype.**
+*Yiren Wang, Lijun Wu, Yingce Xia, Tao Qin, ChengXiang Zhai, Tie-Yan Liu.*
+NIPS 2019.
+[paper](https://papers.nips.cc/paper/8861-neural-machine-translation-with-soft-prototype.pdf)
+
 ##### Deeper:
 
 * **Training Deeper Neural Machine Translation Models with Transparent Attention.**
@@ -704,8 +710,8 @@ NIPS 2019.
 
 * **Understanding Knowledge Distillation in Non-autoregressive Machine Translation.**
 *Chunting Zhou, Graham Neubig, Jiatao Gu.*
-Arxiv 2019.
-[paper](https://arxiv.org/pdf/1911.02727.pdf)
+ICLR 2020.
+[paper](https://openreview.net/pdf?id=BygFVAEKDH)
 
 * **Non-Autoregressive Neural Machine Translation.**
 *Jiatao Gu, James Bradbury, Caiming Xiong, Victor O.K. Li, Richard Socher.*
@@ -1065,6 +1071,16 @@ ACL 2019.
 EMNLP 2019.
 [paper](https://www.aclweb.org/anthology/D19-1079/)
 
+* **Generative Neural Machine Translation.**
+*Harshil Shah, David Barber.*
+NIPS 2018.
+[paper](https://papers.nips.cc/paper/7409-generative-neural-machine-translation.pdf)
+
+* **Mirror-Generative Neural Machine Translation.**
+*Zaixiang Zheng, Hao Zhou, Shujian Huang, Lei Li, Xin-Yu Dai, Jiajun Chen.*
+ICLR 2020.
+[paper](https://openreview.net/pdf?id=HkxQRTNYPH)
+
 <h2 id="robustness">Robustness:</h2>
 
 * **Robust Neural Machine Translation with Joint Textual and Phonetic Embedding.**
@@ -1108,6 +1124,11 @@ EMNLP 2016.
 *Marlies van der Wees, Arianna Bisazza, Christof Monzy.*
 EMNLP 2017.
 [paper](https://www.aclweb.org/anthology/D17-1147)
+
+* **Fixing Translation Divergences in Parallel Corpora for Neural MT.**
+*MinhQuang Pham, Josep Crego, Jean Senellart, François Yvon.*
+EMNLP 2018.
+[paper](https://www.aclweb.org/anthology/D18-1328/)
 
 * **SwitchOut: an Efficient Data Augmentation Algorithm for Neural Machine Translation.**
 *Xinyi Wang, Hieu Pham, Zihang Dai, Graham Neubig.*
@@ -1244,44 +1265,17 @@ EMNLP 2019.
 [paper](https://arxiv.org/pdf/1908.10430.pdf)
 [code](https://github.com/zdou0830/DAFE)
 
-<h2 id="multilingual">Multi-lingual/source/task NMT:</h2>
+* **Iterative Dual Domain Adaptation for Neural Machine Translation.**
+*Jiali Zeng, Yang Liu, Jinsong Su, Yubin Ge, Yaojie Lu, Yongjing Yin, Jiebo Luo.*
+EMNLP 2019.
+[paper](https://www.aclweb.org/anthology/D19-1078.pdf)
+
+<h2 id="multilingual">Multi-lingual NMT:</h2>
 
 * **Multi-Source Neural Translation.**
 *Barret Zoph and Kevin Knight.*
 NAACL 2016.
 [paper](http://www.aclweb.org/anthology/N16-1004)
-
-* **Neural System Combination for Machine Translation.**
-*Long Zhou, Wenpeng Hu, Jiajun Zhang, Chengqing Zong.*
-ACL 2017.
-[paper](http://aclweb.org/anthology/P17-2060)
-
-* **Attention Strategies for Multi-Source Sequence-to-Sequence Learning.**
-*Jindřich Libovický, Jindřich Helcl.*
-ACL 2017.
-[paper](http://aclweb.org/anthology/P17-2031)
-
-* **Doubly-Attentive Decoder for Multi-modal Neural Machine Translation.**
-*Jindřich Libovický, Jindřich Helcl.*
-ACL 2017.
-[paper](http://aclweb.org/anthology/P17-1175)
-
-* **Input Combination Strategies for Multi-Source Transformer Decoder.**
-*Jindřich Libovický, Jindřich Helcl and David Marecek.*
-WMT 2018.
-[paper](http://www.statmt.org/wmt18/pdf/WMT026.pdf)
-
-* **Multimodal Machine Translation with Embedding Prediction.**
-*Tosho Hirasawa, Hayahide Yamagishi, Yukio Matsumura, Mamoru Komachi.*
-NAACL SRW 2018.
-[paper](https://www.aclweb.org/anthology/N19-3012)
-
-* **Multi-Source Neural Machine Translation with Data Augmentation.**
-*Yuta Nishimura, Katsuhito Sudoh, Graham Neubig, Satoshi Nakamura.*
-IWSLT 2018.
-[paper](https://arxiv.org/pdf/1810.06826.pdf)
-
-#### Multilingual:
 
 * **Multi-task Sequence to Sequence Learning.**
 *Minh-Thang Luong, Quoc V. Le, Ilya Sutskever, Oriol Vinyals, Lukasz Kaiser.*
@@ -1313,6 +1307,11 @@ WMT 2018.
 ACL 2018.
 [paper](https://www.aclweb.org/anthology/N19-1387)
 
+* **Multi-Source Neural Machine Translation with Data Augmentation.**
+*Yuta Nishimura, Katsuhito Sudoh, Graham Neubig, Satoshi Nakamura.*
+IWSLT 2018.
+[paper](https://arxiv.org/pdf/1810.06826.pdf)
+
 
 <h2 id="externalknowledge">Incorporate External Knowledge:</h2>
 
@@ -1325,6 +1324,11 @@ WNGT 2018.
 *Tobias Domhan and Felix Hieber.*
 EMNLP 2017.
 [paper](http://aclweb.org/anthology/D17-1158)
+
+* **Neural System Combination for Machine Translation.**
+*Long Zhou, Wenpeng Hu, Jiajun Zhang, Chengqing Zong.*
+ACL 2017.
+[paper](http://aclweb.org/anthology/P17-2060)
 
 * **Modeling Source Syntax for Neural Machine Translation.**
 *Junhui Li, Deyi Xiong, Zhaopeng Tu, Muhua Zhu, Min Zhang, Guodong Zhou.*
@@ -1356,6 +1360,11 @@ NAACL 2019.
 ACL 2019.
 [paper](https://www.aclweb.org/anthology/P19-1177)
 [code](https://github.com/zomux/tree2code)
+
+* **Generating Diverse Translation by Manipulating Multi-Head Attention.**
+*Zewei Sun, Shujian Huang, Hao-Ran Wei, Xin-yu Dai, Jiajun Chen.*
+AAAI 2020.
+[paper](https://arxiv.org/pdf/1911.09333.pdf)
 
 * **Addressing Troublesome Words in Neural Machine Translation.**
 *Yang Zhao, Jiajun Zhang, Zhongjun He, Chengqing Zong, and Hua Wu.*
@@ -1395,7 +1404,46 @@ ICML 2019.
 [paper](https://arxiv.org/pdf/1905.02450.pdf)
 [code](https://github.com/microsoft/MASS)
 
-#### Controling NMT
+* **Incorporating BERT into Neural Machine Translation.**
+*Jinhua Zhu, Yingce Xia, Lijun Wu, Di He, Tao Qin, Wengang Zhou, Houqiang Li, Tieyan Liu.*
+ICLR 2020.
+[paper](https://openreview.net/pdf?id=Hyl7ygStwB)
+[code](https://github.com/bert-nmt/bert-nmt)
+
+#### Language + Image:
+
+* **Attention Strategies for Multi-Source Sequence-to-Sequence Learning.**
+*Jindřich Libovický, Jindřich Helcl.*
+ACL 2017.
+[paper](http://aclweb.org/anthology/P17-2031)
+
+* **Input Combination Strategies for Multi-Source Transformer Decoder.**
+*Jindřich Libovický, Jindřich Helcl and David Marecek.*
+WMT 2018.
+[paper](http://www.statmt.org/wmt18/pdf/WMT026.pdf)
+
+* **Doubly-Attentive Decoder for Multi-modal Neural Machine Translation.**
+*Iacer Calixto, Qun Liu, Nick Campbell.*
+ACL 2017.
+[paper](http://aclweb.org/anthology/P17-1175)
+
+* **Incorporating Global Visual Features into Attention-based Neural Machine Translation.**
+*Iacer Calixto, Qun Liu.*
+EMNLP 2017.
+[paper](https://www.aclweb.org/anthology/D17-1105.pdf)
+
+* **Neural Machine Translation with Universal Visual Representation.**
+*Zhuosheng Zhang, Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita, Zuchao Li, Hai Zhao.*
+ICLR 2020.
+[paper](https://openreview.net/pdf?id=Byl8hhNYPS)
+[code](https://github.com/cooelf/UVR-NMT)
+
+* **Visual Agreement Regularized Training for Multi-Modal Machine Translation.**
+*Pengcheng Yang, Boxing Chen, Pei Zhang, Xu Sun.*
+AAAI 2020.
+[paper](https://arxiv.org/pdf/1912.12014v1.pdf)
+
+#### Controling NMT:
 
 * **Controlling Politeness in Neural Machine Translation via Side Constraints.**
 *Rico Sennrich, Barry Haddow, Alexandra Birch.*
